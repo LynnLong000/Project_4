@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en" ng-app>
+  <head>
+    <title>Hangout Homies n Homefries</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-social.css">
+  </head>
+  <body>
+    <article>
+      <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <header class="text-center" style="color:blue">
+            Hangout Homies n Homefries
+          </header>
+          <ul class="nav navbar-nav col-xs-12">
+            <li class="active"><a href="#Home">Home</a></li>
+            <li><a href="#section1">go to first section</a></li>
+            <li><a href="#section2">go to first section</a></li>
+            <li><a href="#section3">go to first section</a></li>
+          </ul>
+        </div>
+      </nav>
+      
+      <div class="container-fluid">
+        
+        <div class="row">
+          
+          <div class="container-fluid col-lg-2 col-md-2 col-sm-3 col-xs-3">
+            <p>Left side</p>
+            <form action="www.freecodecamp.com" >
+              Enter your Name :
+            <input type="text" name="name"><br><br>
+              Enter your email address:<br>
+            <input type="email" name="email">
+            <input type="submit" >
+            </form>
+          </div>
+          
+          <div class="container-fluid col-lg-8 col-md-8 col-sm-6 col-xs-6" style="background-color:black">
+            <div id="home" class="container-fluid">
+            <p>Main column</p>  
+            </div>
+            
+            <div id="section1" class="container-fluid">
+              <p>Section 1 </p>
+            </div>
+            <div id="section2" class="container-fluid">
+              <p>Section 2 </p>
+            </div>
+            <div id="section3" class="container-fluid">
+              <p>Section 3 </p>
+              
+            </div>
+          </div>
+          
+          <div class="container-fluid col-lg-2 col-md-2 col-sm-3 col-xs-3">
+            right side panel
+            <!-- Had to use Iframe instead of video because i dont have the video-->
+            <iframe width="200" height="100" src="https://www.youtube.com/embed/zdjSWx1AVn8" frameborder="0" allowfullscreen></iframe>
+          </div>
+          
+        </div>
+      </div>
+      
+      <footer>
+        <a class="btn btn-social-icon btn-twitter" href="https://twitter.com/Pooda575">
+          <span class="fa fa-twitter"></span>
+        </a>
+        
+        <img src="" alt="Smiley face" width="42" height="42">
+
+      </footer>
+      <script src="/socket.io/socket.io.js"></script>
+      <script src="/js/jquery.min.js"></script>
+      <script src="/js/bootstrap.min.js"></script>
+      <script src="/js/angular.min.js"></script>
+      <script src="js/myfile.js"></script>
+      <script>
+        function go(){
+    window.location.href = "https://www.freecodecamp.com/email-submit";
+}
+        
+      </script>
+    </article>
+  </body>
+</html>
